@@ -13,7 +13,7 @@ import plotly.graph_objects as go
 
 # Set page config
 st.set_page_config(
-    page_title="Sports Cars Analytics Dashboard",
+    page_title="Elite Sports Cars Analytics by Fahad",
     page_icon="🏎️",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -77,11 +77,18 @@ st.markdown("""
         color: #ff4e50;
         font-weight: bold;
     }
+    .author-name {
+        color: #ff4e50;
+        font-size: 16px;
+        font-style: italic;
+        margin-bottom: 20px;
+    }
 </style>
 """, unsafe_allow_html=True)
 
 # Title and description
-st.title("Elite Sports Cars Analysis Dashboard")
+st.title("Elite Sports Cars Analytics")
+st.markdown('<p class="author-name">Developed by Fahad</p>', unsafe_allow_html=True)
 st.markdown("""
 This dashboard provides an interactive analysis of elite sports cars, including price predictions, 
 market segments, and brand analysis. Use the sidebar to navigate through different analyses.
@@ -1034,5 +1041,5 @@ with st.sidebar:
         """)
 
 st.sidebar.markdown("---")
-st.sidebar.markdown("Created by Your Name")
+st.sidebar.markdown("Created by Fahad")
 st.sidebar.markdown("Data last updated: 2025-02-04")
