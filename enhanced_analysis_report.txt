@@ -1,0 +1,67 @@
+=== Elite Sports Cars Enhanced Analysis Report ===
+
+Model Performance Comparison:
+
+Random Forest:
+R² Score: -0.026
+RMSE: $139,319.76
+MAE: $120,413.47
+5-Fold CV R² Score: -0.024 (+/- 0.015)
+
+XGBoost:
+R² Score: -0.194
+RMSE: $150,358.16
+MAE: $127,235.70
+5-Fold CV R² Score: -0.221 (+/- 0.052)
+
+LightGBM:
+R² Score: -0.049
+RMSE: $140,917.31
+MAE: $121,118.51
+5-Fold CV R² Score: -0.075 (+/- 0.017)
+
+Top 10 Most Important Features:
+Mileage: 0.076
+Insurance_Cost: 0.074
+Torque: 0.071
+Weight: 0.067
+Top_Speed: 0.066
+Horsepower: 0.062
+Engine_Size: 0.059
+Acceleration_0_100: 0.059
+Efficiency_Score: 0.058
+Age: 0.057
+
+Price Statistics by Market Segment:
+                    mean  count        std
+Market_Demand                             
+High           259368.49   1618  135647.81
+Low            264026.37   1704  138743.80
+Medium         262680.27   1678  138575.13
+
+Correlation Analysis:
+Price                   1.000000
+Log_Price               0.937748
+Price_per_HP            0.513062
+Top_Speed               0.029831
+Insurance_Cost          0.018569
+Condition_encoded       0.018522
+Transmission_encoded    0.018471
+Log_Mileage             0.017663
+Fuel_Efficiency         0.012351
+Age                     0.011974
+
+Brand Analysis:
+                  Price                  Horsepower Market_Demand
+                   mean count        std       mean      <lambda>
+Brand                                                            
+Aston Martin  256236.75   513  138591.09     844.39        Medium
+BMW           276471.39   496  137180.81     840.22           Low
+Bugatti       265088.42   507  138094.67     811.22          High
+Chevrolet     267751.66   516  134965.14     820.07           Low
+Ferrari       256136.95   533  138760.52     822.29          High
+Ford          252898.78   486  139807.52     777.49           Low
+Lamborghini   259313.72   470  136124.71     837.06           Low
+McLaren       267438.76   486  136508.78     792.01        Medium
+Nissan        259352.09   480  139405.04     839.78           Low
+Porsche       260090.09   513  136885.01     843.11        Medium

@@ -1,0 +1,36 @@
+=== Elite Sports Cars Advanced Analysis Report ===
+
+Model Performance:
+R² Score: -0.032
+RMSE: $139,788.77
+
+Feature Importance:
+Horsepower: 0.082
+Mileage: 0.081
+Insurance_Cost: 0.081
+Weight: 0.080
+Torque: 0.077
+Top_Speed: 0.071
+CO2_Emissions: 0.071
+Fuel_Efficiency: 0.067
+Engine_Size: 0.065
+Acceleration_0_100: 0.065
+
+Price Statistics by Market Demand:
+                count       mean        std      min        25%       50%        75%       max
+Market_Demand                                                                                 
+High           1618.0  259368.49  135647.81  20194.0  143533.75  261613.5  374787.50  499991.0
+Low            1704.0  264026.37  138743.80  20456.0  143307.25  269595.5  384836.25  499390.0
+Medium         1678.0  262680.27  138575.13  20014.0  144775.75  265331.0  381812.75  499706.0
+
+Correlation with Price:
+Price                    1.000000
+Log_Price                0.937748
+Top_Speed                0.029831
+Insurance_Cost           0.018569
+Condition_encoded        0.018522
+Transmission_encoded     0.018471
+Log_Mileage              0.017663
+Fuel_Efficiency          0.012351
+Age                      0.011974
+Market_Demand_encoded    0.009655

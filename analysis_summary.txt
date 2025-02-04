@@ -1,0 +1,7 @@
+=== Elite Sports Cars Analysis Summary ===
+
+Total number of cars: 5000
+Price range: $20,014.00 - $499,991.00
+Average horsepower: 822.89
+Most common fuel type: Petrol
+Average fuel efficiency: 10.04

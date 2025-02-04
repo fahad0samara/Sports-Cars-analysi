@@ -1,0 +1,58 @@
+=== Elite Sports Cars Analysis Report ===
+
+1. Model Performance:
+R² Score: -0.127
+RMSE: $2.05
+MAE: $1.78
+
+2. Top 10 Most Important Features:
+Performance_Index: 0.054
+Power_to_Weight: 0.051
+Mileage_log: 0.047
+Condition_encoded: 0.047
+Maintenance_Score: 0.047
+Top_Speed: 0.047
+CO2_Emissions: 0.046
+Fuel_Efficiency: 0.046
+Market_Demand_encoded: 0.045
+Acceleration_0_100: 0.044
+
+3. Price Segment Statistics:
+             Price                      Horsepower    Mileage
+             count       mean       std       mean       mean
+PriceSegment                                                 
+Budget        1250   81342.82  36043.36     819.27  124822.48
+Mid-Range     1250  204531.54  34839.37     822.00  126933.20
+Premium       1250  323412.02  32982.14     817.88  126125.03
+Luxury        1250  438982.94  34288.80     832.42  128067.37
+
+4. Outlier Analysis:
+Total outliers detected: 500
+Percentage of outliers: 10.0%
+
+5. Feature Correlations with Price:
+Price_log             1.000000
+Log_Price             1.000000
+Price                 0.937748
+Top_Speed             0.031241
+Insurance_Cost_log    0.020218
+Condition_encoded     0.018860
+Insurance_Cost        0.016947
+Mileage_log           0.015311
+Log_Mileage           0.015311
+Fuel_Efficiency       0.013133
+
+6. Brand Analysis:
+                  Price       Horsepower Market_Demand
+                   mean count       mean      <lambda>
+Brand                                                 
+Aston Martin  256236.75   513     844.39        Medium
+BMW           276471.39   496     840.22           Low
+Bugatti       265088.42   507     811.22          High
+Chevrolet     267751.66   516     820.07           Low
+Ferrari       256136.95   533     822.29          High
+Ford          252898.78   486     777.49           Low
+Lamborghini   259313.72   470     837.06           Low
+McLaren       267438.76   486     792.01        Medium
+Nissan        259352.09   480     839.78           Low
+Porsche       260090.09   513     843.11        Medium
