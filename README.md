@@ -60,14 +60,30 @@ This project provides comprehensive analytics and insights into the world of eli
 
 ```
 Sports-Cars-analysi/
-├── 📊 sports_cars_app.py        # Main Streamlit application
-├── 📈 sports_cars_analysis.py   # Data analysis and processing functions
+├── 📊 components/                # Modular components
+│   ├── overview.py              # Overview section
+│   ├── geographic.py            # Geographic analysis
+│   ├── price_analysis.py        # Price analysis
+│   ├── performance.py           # Performance metrics
+│   └── utils.py                 # Utility functions
+│
+├── 📈 notebooks/                 # Jupyter notebooks
+│   ├── advanced_analysis.ipynb  # Advanced data analysis
+│   └── sports_cars_analysis.ipynb # Initial analysis
+│
+├── 🖼️ images/                    # Images and charts
+│   ├── advanced_analysis.png
+│   ├── car_analysis.png
+│   ├── enhanced_analysis.png
+│   └── sports_cars_analysis.png
+│
+├── 📊 data/                      # Data files
+│   └── Elite Sports Cars in Data.csv
+│
+├── 📱 sports_cars_app.py        # Main Streamlit application
 ├── 📝 requirements.txt          # Project dependencies
 ├── 📄 README.md                 # Project documentation
-├── ⚖️ LICENSE                   # MIT License
-├── 📋 .gitignore               # Git ignore rules
-└── 📊 data/
-    └── Elite Sports Cars in Data.csv  # Dataset file
+└── ⚖️ LICENSE                   # MIT License
 ```
 
 ## 🔧 Components
